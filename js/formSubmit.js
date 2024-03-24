@@ -39,7 +39,6 @@ function formHandler(event) {
             'danger'
             )
     }
-
 }
 
 /*

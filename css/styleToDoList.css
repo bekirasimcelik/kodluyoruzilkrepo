@@ -1,0 +1,29 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #f0f0f0;
+}
+
+.is-complete {
+  text-decoration: line-through;
+}
+
+.toast {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.toast.show {
+  opacity: 1;
+}
